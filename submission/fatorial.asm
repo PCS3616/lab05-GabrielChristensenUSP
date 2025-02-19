@@ -1,0 +1,30 @@
+	SC /010
+	HM /000
+	
+	@ /0010
+	K /0000
+	LD /100
+	M /104
+	MM /102
+	JZ /034
+	SB /106
+	JZ /03
+	LD /104 (INICIO DO LOOP)
+	SB /106
+	MM /104
+	ML /102
+	MM /102
+	LD /104
+	JZ /02
+	SB /106
+	JZ /02A
+	JP /018
+	RS /010
+	LD /106
+	MM /102
+	JP /02E
+	
+	@ /0100
+N	K
+RES	K
+	K 0001
