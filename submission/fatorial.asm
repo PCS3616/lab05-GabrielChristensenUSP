@@ -8,21 +8,21 @@
 	MM /102
 	JZ /034
 	SB /106
-	JZ /03
-	LD /104 (INICIO DO LOOP)
+	JZ /032
+	LD /104
 	SB /106
 	MM /104
 	ML /102
 	MM /102
 	LD /104
-	JZ /02
+	JZ /032
 	SB /106
 	JZ /02A
 	JP /018
 	RS /010
 	LD /106
 	MM /102
-	JP /02E
+	JP /032
 	
 	@ /0100
 N	K
